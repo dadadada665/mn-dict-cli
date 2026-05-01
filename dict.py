@@ -18,7 +18,7 @@ def load_dictionary():
 
 def lookup(word, reverse=False):
     dictionary = load_dictionary()
-    word = word.lower().strip()
+    word = word.strip().lower()
     if reverse:
         for mn, en in dictionary.items():
             if en.lower() == word:
