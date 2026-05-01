@@ -12,4 +12,12 @@ CYRILLIC_TO_LATIN = {
 
 
 def to_latin(text: str) -> str:
+    """Convert Mongolian Cyrillic to Latin transliteration."""
+    if not text:
+        return ''
     return ''.join(CYRILLIC_TO_LATIN.get(ch, ch) for ch in text.lower())
+
+
+def is_cyrillic(text: str) -> bool:
+    """Check if text contains Cyrillic characters."""
+    return any('\u0400' <= ch <= '\u04ff' for ch in text)
