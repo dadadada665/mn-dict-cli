@@ -1,0 +1,2 @@
+# No external dependencies for v0.1
+# Future: requests, click, rich
