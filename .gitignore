@@ -1,4 +1,12 @@
 __pycache__/
 *.pyc
 .env
+.env.local
+*.log
 .DS_Store
+.vscode/
+.idea/
+
+# Local dev configs
+config/dev_secrets.py
+config/local_*.py
