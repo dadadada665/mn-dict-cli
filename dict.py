@@ -37,7 +37,7 @@ def main():
     if result:
         print(result)
     else:
-        print(f"'{args.word}' үг олдсонгүй.", file=sys.stderr)
+        print(f"⚠️  '{args.word}' үг олдсонгүй. Spelling-аа шалгаарай.", file=sys.stderr)
         sys.exit(2)
 
 
