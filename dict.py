@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# mn-dict-cli v0.2
 """mn-dict-cli — Монгол-Англи толь бичиг"""
 import argparse
 import json
