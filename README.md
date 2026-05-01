@@ -28,3 +28,16 @@ python dict.py --reverse "book"
 ## Лиценз / License
 
 MIT
+
+## Жишээ / Examples
+
+```bash
+$ python dict.py "ном"
+book
+
+$ python dict.py "сургууль"
+school
+
+$ python dict.py --reverse "water"
+ус
+```
