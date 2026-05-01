@@ -10,7 +10,7 @@ from pathlib import Path
 def load_dictionary():
     data_path = Path(__file__).parent / "data" / "dictionary.json"
     if not data_path.exists():
-        print("Алдаа: толь бичгийн файл олдсонгүй.", file=sys.stderr)
+        print(f"Алдаа: толь бичгийн файл олдсонгүй ({data_path})", file=sys.stderr)
         sys.exit(1)
     with open(data_path, encoding="utf-8") as f:
         return json.load(f)
