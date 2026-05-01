@@ -12,6 +12,10 @@ cd mn-dict-cli
 pip install -r requirements.txt
 ```
 
+## Зөвлөгөө / Tip
+
+Өгөгдөл олдохгүй бол `data/dictionary.json` дотор нэмж болно.
+
 ## Хэрэглээ / Usage
 
 ```bash
