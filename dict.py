@@ -29,7 +29,7 @@ def lookup(word, reverse=False):
 
 def main():
     parser = argparse.ArgumentParser(description="Монгол-Англи толь бичиг")
-    parser.add_argument("word", help="Хайх үг")
+    parser.add_argument("word", help="Хайх үг (Монгол эсвэл Англи)")
     parser.add_argument("--reverse", "-r", action="store_true")
     args = parser.parse_args()
 
