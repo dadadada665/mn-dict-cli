@@ -1,2 +1,6 @@
-# No external dependencies for v0.1
-# Future: requests, click, rich
+# Runtime dependencies
+# (no external dependencies for v0.2)
+
+# Dev dependencies (uncomment for development)
+# pytest>=7.0
+# black>=23.0
